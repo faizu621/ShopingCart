@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <div className=" bg-slate-800 h-20 flex items-center " >
       <div className="w-11/12 max-w-[1100px] mx-auto flex justify-between  ">
-         <NavLink to="/">
+         <NavLink to="/ShopingCart/">
           <img src={Image} className="h-[56px] ml-4 " />
          </NavLink>
         <div className=" text-white flex gap-x-2 items-center ">
-          <NavLink to="/">
+          <NavLink to="/ShopingCart/">
             <p>Home</p>
           </NavLink>
           <NavLink to="/cart" className="text-[25px]">

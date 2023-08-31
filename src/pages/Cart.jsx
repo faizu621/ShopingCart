@@ -46,7 +46,7 @@ const Cart = () => {
       </div>) :
       (<div className=" flex flex-col justify-center items-center w-full h-[80vh] gap-y-2">
        <h1 className="text-2xl font-bold uppercase text-slate-800">Cart Is Empty</h1>
-       <NavLink to="/">
+       <NavLink to="/ShopingCart/">
         <button className=" py-2 px-4 bg-slate-800 text-white rounded-lg">
           Shop Now
         </button>

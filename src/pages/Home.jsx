@@ -37,8 +37,8 @@ const Home = () => {
           ))}
         </div>
       ) : (
-        <div>
-          <p>No Post Found</p>
+        <div className="h-full flex justify-center items-center">
+          <p className="text-2xl font-bold uppercase text-slate-800">No Post Found</p>
         </div>
       )}
     </div>
